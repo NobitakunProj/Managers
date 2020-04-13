@@ -1,2 +1,3 @@
 var testCode;
-let testCode2 = "REQEST";
+// let宣言が使えないため varに変更する
+var testCode2 = "REQUEST";
