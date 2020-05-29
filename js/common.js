@@ -4,6 +4,8 @@ $(function(){
     /* ------------------------------ */
     var timeout_fuki1 = null;
 
+    let context nil;
+
     //メニューアイコンをhoverしたら吹き出しを表示する
     $('.m_icon').hover(function(){
         timeout_fuki1 = setTimeout(function(){
